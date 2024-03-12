@@ -1,7 +1,7 @@
 import random
 import pyinputplus as pyip
-def play_game():...
-while(True):
+
+def play_game():
     min = 1
     max = 100
     count = 0
@@ -24,12 +24,12 @@ while(True):
             min = keyin + 1
         print(f"您已經猜了{count}次")
 
+def main():
     while(True):
-     play_game()
-     is_again:str = input("請問還要繼續嗎(y,n)?")
-     if not is_again == 'y':
-        break
-    
-    
-        
-    print("遊戲結束!") 
+        play_game()
+        is_again:str = input("請問還要繼續嗎(y,n)?")
+        if not is_again == 'y':
+            break      
+    print("遊戲結束!")
+
+main()
