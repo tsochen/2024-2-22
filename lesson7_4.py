@@ -31,5 +31,5 @@ def main():
         if not is_again == 'y':
             break      
     print("遊戲結束!")
-
-main()
+if __name__ == '__main__':
+    main()
