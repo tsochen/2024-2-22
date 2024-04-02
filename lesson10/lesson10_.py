@@ -1,4 +1,4 @@
-from lesson_tools.tools import getItems,Items
+from lesson10.tools import getItems,Items
 
 def main():
     items:Items = getItems()
