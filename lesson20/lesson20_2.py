@@ -6,7 +6,7 @@ import os
 import google.generativeai as genai
 
 
-app = Flask(__name__)
+app1 = Flask(__name__)
 
 line_bot_api = LineBotApi(os.environ['CHANNEL_ACCESS_TOKEN'])
 handler = WebhookHandler(os.environ['CHANNEL_SECRET'])
